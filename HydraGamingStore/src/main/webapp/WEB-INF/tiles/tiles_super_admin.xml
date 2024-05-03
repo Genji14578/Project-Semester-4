@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="superadmin.index" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/superadmin/index.jsp"></put-attribute>
+	</definition>
+	<definition name="superadmin.show" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/superadmin/account/show_account.jsp"></put-attribute>
+	</definition>
+	<definition name="superadmin.add" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/superadmin/account/add.jsp"></put-attribute>
+	</definition>
+	<definition name="superadmin.success" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/success.jsp"></put-attribute>
+	</definition>
+	<definition name="superadmin.update" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/superadmin/account/update.jsp"></put-attribute>
+	</definition>
+	
+</tiles-definitions>
+
+
+

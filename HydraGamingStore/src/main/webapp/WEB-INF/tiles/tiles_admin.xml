@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="admin.index" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/index.jsp"></put-attribute>
+	</definition>
+	<definition name="admin.add" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/invoice/add.jsp"></put-attribute>
+	</definition>
+	<definition name="admin.show" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/invoice/show_invoice.jsp"></put-attribute>
+	</definition>
+	<definition name="admin.success" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/success.jsp"></put-attribute>
+	</definition>
+	<definition name="admin.update" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/invoice/update.jsp"></put-attribute>
+	</definition>
+	<definition name="admin.sort_asc" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/invoice/sort_asc.jsp"></put-attribute>
+	</definition>
+	<definition name="admin.sort_desc" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/invoice/sort_desc.jsp"></put-attribute>
+	</definition>
+	<definition name="admin.comment" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/comment/show_comment.jsp"></put-attribute>
+	</definition>
+	<definition name="admin.show_detail" extends="admin_template">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/invoice/show_invoice_detail.jsp"></put-attribute>
+	</definition>
+
+</tiles-definitions>
+
+
+
